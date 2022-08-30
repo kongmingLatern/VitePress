@@ -3,13 +3,13 @@ export default {
   description: 'Just playing around.',
   themeConfig: {
     sidebar: [{
-      text: 'Guide',
+      text: 'Home',
       items: [{
-          text: 'Introduction',
+          text: '介绍',
           link: '/'
         },
         {
-          text: 'TDD',
+          text: 'TDD 开发思想',
           link: '/TDD'
         }
       ]
