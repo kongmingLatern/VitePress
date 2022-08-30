@@ -32,11 +32,11 @@ TDD：`Test-Driven Development`，(测试驱动开发)，换句话说就是：
 
 如以下测试
 
-```jest
-describe('描述信息', () =>{
- test('测试的内容，例如 1 + 1 应该为 2', () => {
-  expect(1 + 1).toBe(2)
- })
+```js
+describe('描述信息', () => {
+  test('测试的内容，例如 1 + 1 应该为 2', () => {
+    expect(1 + 1).toBe(2)
+  })
 })
 ```
 
