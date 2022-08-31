@@ -1,11 +1,36 @@
-### Hi there 👋
+---
+layout: home
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Dancing+Script&size=30&color=2860FF&vCenter=true&lines=Hi%2C+I'm+kongmingLatern.;A+front-end+development+student)](https://git.io/typing-svg)
+hero:
+  name: KongmingLatern's Blog
+  text: Hi there.
+  tagline: 学无止境
+  image:
+    alt: VitePress
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /start
+    - theme: alt
+      text: My GitHub
+      link: https://github.com/kongmingLatern
+features:
+  - icon: ⚡️
+    title: 前端技术栈
+    details: JavaScript, TypeScript, Vue, React, Node
+  - icon: 🖖
+    title: 常用技术栈
+    details: Vue3 + TypeScript + Vitest
+  - icon: 🛠️
+    title: 目前状态
+    details: Doing Block chain
+---
 
-![Running snail's github stats](https://github-readme-stats.vercel.app/api?username=kongmingLatern&hide_title=false&hide_border=true&show_icons=true&include_all_commits=true&line_height=20&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn)
+---
 
-![profile](https://github-profile-trophy.vercel.app/?username=kongmingLatern&theme=algolia&column=8)
-
-![](https://activity-graph.herokuapp.com/graph?username=kongmingLatern&theme=github)
-
-社交主页 👉 [掘金](https://juejin.cn/user/2661260074428861)
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+}
+</style>
