@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs --port 5173"
+    "serve": "vitepress build docs && vitepress serve docs --port 5173"
   },
   "keywords": [],
   "author": "",
